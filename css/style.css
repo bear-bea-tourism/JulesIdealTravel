@@ -340,10 +340,15 @@ legend {
   transition: color 0.3s;
 }
 
+.project-wrap h3 {
+  transition: color 0.3s ease;
+}
+
 .project-wrap:hover h3 {
   color: #007bff;
+}
   
-  .project-wrap {
+ .project-wrap {
   display: block;
   border-radius: 10px;
   overflow: hidden;
