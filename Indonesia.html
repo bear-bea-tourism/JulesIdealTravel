@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Indonesia Destinations</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Bootstrap (optional but recommended if your site already uses it) -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    .hero {
+      background: url('images/indonesia-banner.jpg') center/cover no-repeat;
+      height: 300px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero h1 {
+      background: rgba(0,0,0,0.5);
+      padding: 15px 25px;
+      border-radius: 10px;
+    }
+
+    .destination-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .destination-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    .destination-card img {
+      height: 200px;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    .card-body {
+      text-align: center;
+    }
+
+    .btn-destination {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Explore Indonesia</h1>
+  </div>
+
+  <!-- Destinations Section -->
+  <div class="container mt-5">
+    <div class="row">
+
+      <!-- Bali -->
+      <div class="col-md-4 mb-4">
+        <div class="card destination-card">
+          <img src="images/bali.jpg" alt="Bali">
+          <div class="card-body">
+            <h5>Bali</h5>
+            <p>Beach paradise and cultural escape.</p>
+            <a href="bali.html" class="btn btn-primary btn-destination">Explore</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Jakarta -->
+      <div class="col-md-4 mb-4">
+        <div class="card destination-card">
+          <img src="images/jakarta.jpg" alt="Jakarta">
+          <div class="card-body">
+            <h5>Jakarta</h5>
+            <p>Capital city with modern attractions.</p>
+            <a href="jakarta.html" class="btn btn-primary btn-destination">Explore</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Yogyakarta -->
+      <div class="col-md-4 mb-4">
+        <div class="card destination-card">
+          <img src="images/yogyakarta.jpg" alt="Yogyakarta">
+          <div class="card-body">
+            <h5>Yogyakarta</h5>
+            <p>Rich in culture, temples, and history.</p>
+            <a href="yogyakarta.html" class="btn btn-primary btn-destination">Explore</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
