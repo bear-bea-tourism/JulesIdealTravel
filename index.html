@@ -28,31 +28,56 @@
   </head>
   <body>
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Vacation<span>Travel Agency</span></a>
-	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
+  <div class="container">
+    
+    <a class="navbar-brand" href="index.html">
+      Vacation<span>Travel Agency</span>
+    </a>
 
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-			    <ul class="menu">
-	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">Tours</a></li>
-				<ul class="menu">
-        <li class="dropdown"><li class="dropdown"><a href="#">Destinations</a>
-      <ul class="dropdown-menu">
-        <li class="nav-item"><a href="EarlyBooking.html" class="nav-link">Early Booking</a></li>
-        <li><a href="#">Last Minute</a></li>
-      </ul></li>
-	          
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li> 
-			  <li class="nav-item active"><a href="#" class="nav-link">Last Minute</a></li>
-	          <li class="nav-item cta"><a href="#" class="nav-link">Book Now</a></li>
-     
-	      </div>
-	    </div>
-	  </nav>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav">
+      <span class="oi oi-menu"></span> Menu
+    </button>
+
+    <div class="collapse navbar-collapse" id="ftco-nav">
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item active">
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="tours.html" class="nav-link">Tours</a>
+        </li>
+
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" id="destinationsDropdown" data-toggle="dropdown">
+            Destinations
+          </a>
+
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="earlybooking.html">Early Booking</a>
+            <a class="dropdown-item" href="lastminute.html">Last Minute</a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a href="giftcard.html" class="nav-link">Gift Card</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">Contact</a>
+        </li>
+
+        <li class="nav-item cta">
+          <a href="#" class="nav-link">Book Now</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
     <!-- END nav -->
     
     <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
