@@ -172,8 +172,51 @@ svg {
   overflow: hidden;
   vertical-align: middle; }
 
+
 table {
   border-collapse: collapse; }
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+/* Dropdown menu hidden by default */
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  list-style: none;
+  padding: 10px 0;
+  min-width: 150px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li a {
+  padding: 10px 15px;
+  white-space: nowrap;
+}
 
 caption {
   padding-top: 0.75rem;
